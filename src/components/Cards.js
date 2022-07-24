@@ -3,8 +3,8 @@ import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import CardItem from "./CardItem";
 import "./Cards.css";
-import Uncontrolled from "./Carousel";
-import "./Carousel.css";
+
+
 
 function Cards() {
   return (
@@ -18,6 +18,7 @@ function Cards() {
             <CardItem
               src="services/pcBuild.jpg"
               text="Armado De Computadoras A Tu Medida"
+              alt='Cargadores-Adaptadores Corriente'
               label="CREAR"
               path="/services"
             />
@@ -37,7 +38,7 @@ function Cards() {
           <ul className="cards__items">
             <CardItem
               src="services/printerRepair.jpg"
-              text="Diversos tipos de impresa: Laser, Tinta, Multifuncional"
+              text="Diversos tipos de impresora: Laser, Tinta, Multifuncional"
               label="Reparar"
               path="Servicios"
             />
@@ -59,8 +60,8 @@ function Cards() {
             <Link to='/Servicios' class='lnk'><Button class='btn' to='/servicios'>AQUI</Button></Link>
           </div>
         </div>
-        <h1> Contamos Con Las Mejores Marcas</h1>
-        <Uncontrolled />
+        
+
       </div>
     </div>
   );

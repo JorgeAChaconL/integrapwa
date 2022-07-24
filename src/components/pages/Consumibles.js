@@ -23,53 +23,54 @@ function Consumibles() {
           <ul className="cards__items">
             <CardItem
               src={images["epsonInk.jpg"]}
-              text="Armado De Computadoras A Tu Medida"
-              label="REPARACION"
+              text="Tintas marca Epson."
+              text2="Distintos modelos"
+              label="Consumibles"
             />
             <CardItem
               src={images["canonInk.jpg"]}
-              text="Instalación de sistemas de circuito cerrado"
-              label="REPARACION"
+              text="Tintas marca Canon."
+              label="Consumibles"
             />
             <CardItem
               src={images["hpHeads.jpg"]}
-              text="Equipo de computo como Laptops, Tablets, PCs y Más"
-              label="REPARACION"
+              text="Cartuchos, Tinta y cabezales marca HP"
+              label="Consumibles"
             />
             <CardItem
               src={images["canonHeads.jpeg"]}
-              text="Instalación de sistemas de circuito cerrado"
-              label="REPARACION"
+              text="Cartuchos y Cabezales Distintos modelos Marca Canon"
+              label="Consumibles"
             />
           </ul>
           <ul className="cards__items">
             <CardItem
               src={images["aireComprimido.jpg"]}
-              text="Diversos tipos de impresa: Laser, Tinta, Multifuncional"
-              label="REPARACION"
+              text="Aire Comprimido Para Equipo de Computo"
+              label="Consumibles"
             />
             <CardItem
               src={images["tonerCompatible.jpg"]}
-              text="Instalación de Cable Estructurado "
-              label="REPARACION"
+              text="Toner Compatible para Distintos Equipos"
+              label="Consumibles"
             />
             <CardItem
               src={images["tonerOriginal.jpg"]}
-              text="Distintos Dispositivos de Marca Apple"
-              label="REPARACION"
+              text="Toner Original para Distintos Equipos"
+              label="Consumibles"
             />
             <CardItem
               src={images["papel.jpg"]}
-              text="Distintos Dispositivos de Marca Apple"
-              label="REPARACION"
+              text="Papel para impresora, Plotter u Otros Equipos"
+              label="Consumibles"
             />
           </ul>
-        
         </div>
-        <Button class='btn' disabled> Proximamente Tienda Online</Button>
-        
+        <Button class="btn" disabled>
+          {" "}
+          Proximamente Tienda Online
+        </Button>
       </div>
-      
     </div>
   );
 }

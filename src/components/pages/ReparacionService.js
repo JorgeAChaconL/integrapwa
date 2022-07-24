@@ -14,8 +14,6 @@ const images = importAll(
   require.context("../../assets/refacciones", false, /\.(png|jpe?g|svg)$/)
 );
 
-
-
 function ReparacionService() {
   return (
     <div className="cards">
@@ -24,40 +22,42 @@ function ReparacionService() {
           <ul className="cards__items">
             <CardItem
               src={images["cargadores.jpg"]}
-              text="Armado De Computadoras A Tu Medida"
-              label="REPARACION"
+              alt="Cargadores-Adaptadores Corriente"
+              text="Adaptadores de Corriente de Distintas Marcas"
+              label="Reparacion"
             />
             <CardItem
               src={images["pcBuild.jpg"]}
-              text="Instalación de sistemas de circuito cerrado"
-              label="REPARACION"
+              alt="PCBuild-Armado PC-Computadoras-Chihuahua-CUU-Tecnologia"
+              text="Armado De Computadoras A Tu Medida"
+              label="Armado"
             />
             <CardItem
               src={images["pantallaRota.jpg"]}
-              text="Equipo de computo como Laptops, Tablets, PCs y Más"
-              label="REPARACION"
+              text="Reparacion Pantallas Rotas, Manchas o con Lineas"
+              label="Refacciones"
             />
             <CardItem
               src={images["teclados.jpg"]}
-              text="Instalación de sistemas de circuito cerrado"
-              label="REPARACION"
+              text="Teclados para diversos modelos de Laptop"
+              label="Refacciones"
             />
           </ul>
           <ul className="cards__items">
             <CardItem
               src={images["printerRepair.jpg"]}
-              text="Diversos tipos de impresa: Laser, Tinta, Multifuncional"
-              label="REPARACION"
+              text="Diversos tipos de impresora: Laser, Tinta, Multifuncional"
+              label="Reparacion"
             />
             <CardItem
               src={images["mac.jpg"]}
-              text="Instalación de Cable Estructurado "
-              label="REPARACION"
+              text="Distintos Dispositivos de Marca Apple"
+              label="Reparacion"
             />
             <CardItem
               src={images["pcRepair.jpg"]}
-              text="Distintos Dispositivos de Marca Apple"
-              label="REPARACION"
+              text="Reparacion y actualizacion de equipos de computo"
+              label="Reparacion"
             />
           </ul>
         </div>

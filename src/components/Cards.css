@@ -20,6 +20,7 @@
     text-align: center;
   }
   
+  
   .cards__container {
     display: flex;
     flex-flow: column;
@@ -27,6 +28,7 @@
     max-width: 2240px;
     width: 90%;
     margin: 0 auto;
+    margin-bottom: 2rem;
   }
   
   .cards__wrapper {

@@ -22,40 +22,40 @@ function InstalacionServ() {
           <ul className="cards__items">
             <CardItem
               src={images["cctvInstall.jpg"]}
-              text="Equipo de computo como Laptops, Tablets, PCs y Más"
-              label="REPARACION"
+              text="Instalación de sistemas de circuito cerrado-CCTV"
+              label="Instalacion"
             />
             <CardItem
               src={images["structuredCable.jpg"]}
-              text="Instalación de sistemas de circuito cerrado"
-              label="REPARACION"
+              text="Instalación de Cable Estructurado "
+              label="Instalacion"
             />
             <CardItem
               src={images["firetrace.jpg"]}
-              text="Distintos Dispositivos de Marca Apple"
-              label="REPARACION"
+              text="Sistemas contra incendios FIRETRACE"
+              label="Instalacion"
             />
             <CardItem
               src={images["controlAcceso.jpg"]}
-              text="Diversos tipos de impresa: Laser, Tinta, Multifuncional"
-              label="REPARACION"
+              text="Controles de Acceso, Puertas magneticas, Torniquetes."
+              label="Instalacion"
             />
           </ul>
           <ul className="cards__items">
             <CardItem
               src={images["software.jpg"]}
-              text="Instalación de Cable Estructurado "
-              label="REPARACION"
+              text="Instalacion de Programas"
+              label="Instalacion"
             />
             <CardItem
               src={images["antivirus.jpg"]}
-              text="Armado De Computadoras A Tu Medida"
-              label="REPARACION"
+              text="Antivirus de Diversas Marcas"
+              label="Instalacion"
             />
             <CardItem
               src={images["Office.jpg"]}
-              text="Instalación de sistemas de circuito cerrado"
-              label="REPARACION"
+              text="Instalación de Sistema Office." 
+              label="Instalacion"
             />
           </ul>
         </div>
